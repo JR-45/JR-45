@@ -126,6 +126,9 @@ class TheWorld:
 ```
   ゴ                                                                    ゴ
   ゴ                                                                    ゴ
+  ゴ   "You thought your code was safe? But it was me, JR-45!"         ゴ
+  ゴ                                           — DIO                    ゴ
+  ゴ                                                                    ゴ
   ゴ   "I, JR-45, have a dream."                                       ゴ
   ゴ                                           — Giorno Giovanna        ゴ
   ゴ                                                                    ゴ
