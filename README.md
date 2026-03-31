@@ -9,10 +9,6 @@
 
 <br>
 
-<div align="center">
-
-</div>
-
 ---
 
 ### ⚔️ Arsenal — 「STAND ABILITIES」
@@ -33,10 +29,42 @@
 
 ---
 
-### ⚔️「ZA WARUDO」— Time Stop Deployment
+### 📊「STAND PARAMETERS」
+
+<div align="center">
+  <img src="./assets/stand-stats.svg" alt="Stand Parameters" />
+</div>
+
+---
+
+### 🩸「ZA WARUDO」— Time Stop Deployment
 
 <div align="center">
   <img src="./assets/za-warudo.svg" width="100%" alt="Za Warudo Deploy Animation" />
+</div>
+
+---
+
+### 💣「KILLER QUEEN」— First Bomb: Code Review
+
+<div align="center">
+  <img src="./assets/killer-queen.svg" width="100%" alt="Killer Queen Test Animation" />
+</div>
+
+---
+
+### 🌀「WONDER OF U」— Calamity Security
+
+<div align="center">
+  <img src="./assets/wonder-of-u.svg" width="100%" alt="Wonder of U Security Animation" />
+</div>
+
+---
+
+### 📈「STAND ACTIVITY」
+
+<div align="center">
+  <img src="./assets/stand-activity.svg" width="100%" alt="Stand Activity Wave" />
 </div>
 
 ---

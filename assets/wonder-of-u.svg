@@ -1,0 +1,131 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 420" width="680" height="420">
+  <style>
+    @keyframes typing {
+      0% { opacity: 0; }
+      1% { opacity: 1; }
+      100% { opacity: 1; }
+    }
+    @keyframes drift {
+      0% { opacity: 0; transform: translateY(-5px); }
+      100% { opacity: 1; transform: translateY(0); }
+    }
+    @keyframes ominous {
+      0%, 100% { filter: drop-shadow(0 0 2px #61AFEF); }
+      50% { filter: drop-shadow(0 0 10px #61AFEF); }
+    }
+    @keyframes calamity {
+      0%, 100% { opacity: 0.4; }
+      50% { opacity: 1; }
+    }
+    @keyframes glitch {
+      0%, 100% { transform: translateX(0); }
+      20% { transform: translateX(-1px); }
+      40% { transform: translateX(2px); }
+      60% { transform: translateX(-1px); }
+      80% { transform: translateX(1px); }
+    }
+
+    .bg { fill: #0d1117; rx: 10; ry: 10; }
+    .border { fill: none; stroke: #61AFEF; stroke-width: 2; rx: 10; ry: 10; animation: ominous 4s infinite; }
+    text { font-family: 'Courier New', monospace; font-size: 13px; }
+    .cmd { fill: #61AFEF; }
+    .title { fill: #61AFEF; font-size: 16px; font-weight: bold; }
+    .info { fill: #ABB2BF; }
+    .success { fill: #98C379; }
+    .calamity-text { fill: #E06C75; font-weight: bold; animation: calamity 2s 7s infinite; }
+    .warn { fill: #E5C07B; }
+    .accent { fill: #C678DD; }
+    .blue { fill: #61AFEF; }
+    .separator { fill: #5C6370; }
+    .ominous-text { fill: #61AFEF; font-size: 10px; animation: calamity 3s infinite; }
+
+    .line { opacity: 0; }
+    .l1  { animation: typing 0.1s 0.3s forwards; }
+    .l2  { animation: drift 0.8s 1.0s forwards; }
+    .l3  { animation: typing 0.1s 1.8s forwards; }
+    .l4  { animation: typing 0.1s 2.2s forwards; }
+    .l5  { animation: typing 0.1s 2.7s forwards; }
+    .l6  { animation: typing 0.1s 3.2s forwards; }
+    .l7  { animation: typing 0.1s 3.7s forwards; }
+    .l8  { animation: typing 0.1s 4.2s forwards; }
+    .l9  { animation: typing 0.1s 4.7s forwards; }
+    .l10 { animation: typing 0.1s 5.2s forwards; }
+    .l11 { animation: typing 0.1s 5.7s forwards; }
+    .l12 { animation: typing 0.1s 6.2s forwards; }
+    .l13 { animation: drift 0.8s 6.8s forwards; }
+    .l14 { animation: drift 0.8s 7.6s forwards; }
+
+    .cursor { animation: calamity 0.8s infinite; fill: #61AFEF; }
+    .glitch { animation: glitch 0.5s 6.8s 4; }
+  </style>
+
+  <rect class="bg" x="0" y="0" width="680" height="420" />
+  <rect class="border" x="1" y="1" width="678" height="418" />
+
+  <!-- Terminal dots -->
+  <circle cx="22" cy="18" r="6" fill="#E06C75" />
+  <circle cx="40" cy="18" r="6" fill="#E5C07B" />
+  <circle cx="58" cy="18" r="6" fill="#98C379" />
+
+  <g class="line l1">
+    <text x="25" y="55" class="cmd">$ jr45 secure --mode=wonder-of-u</text>
+    <rect class="cursor" x="355" y="43" width="8" height="15" />
+  </g>
+
+  <g class="line l2">
+    <text x="25" y="90" class="title">「WONDER OF U」</text>
+    <text x="195" y="90" class="info"> — The flow of calamity</text>
+  </g>
+
+  <g class="line l3">
+    <text x="25" y="115" class="warn">⚠️   Pursuing this codebase was your mistake.</text>
+  </g>
+
+  <g class="line l4">
+    <text x="25" y="140" class="separator">━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</text>
+  </g>
+
+  <g class="line l5">
+    <text x="25" y="170" class="info">⠋  Activating Keycloak ............ OAuth2 + JWT</text>
+  </g>
+
+  <g class="line l6">
+    <text x="25" y="195" class="info">⠙  CORS policies .................. locked down</text>
+  </g>
+
+  <g class="line l7">
+    <text x="25" y="220" class="info">⠹  Rate limiting .................. 100 req/min</text>
+  </g>
+
+  <g class="line l8">
+    <text x="25" y="245" class="info">⠸  SQL injection defense .......... parameterized</text>
+  </g>
+
+  <g class="line l9">
+    <text x="25" y="270" class="info">⠼  Input validation ............... Pydantic strict</text>
+  </g>
+
+  <g class="line l10">
+    <text x="25" y="295" class="blue">⠾  Calamity field activated ....... all threats redirected</text>
+  </g>
+
+  <g class="line l11">
+    <text x="25" y="320" class="separator">━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</text>
+  </g>
+
+  <g class="line l12">
+    <text x="25" y="350" class="success">✓  All attack vectors neutralized.</text>
+  </g>
+
+  <g class="glitch">
+    <g class="line l13">
+      <text x="25" y="380" class="calamity-text">⛔  Do you believe you can pursue me? Every action against</text>
+    </g>
+
+    <g class="line l14">
+      <text x="25" y="405" class="calamity-text">    this system will bring calamity upon you.</text>
+    </g>
+  </g>
+
+  <text x="340" y="416" text-anchor="middle" class="ominous-text">ゴ ゴ ゴ ゴ ゴ ゴ ゴ ゴ ゴ ゴ ゴ ゴ ゴ ゴ ゴ ゴ ゴ ゴ ゴ ゴ ゴ ゴ ゴ ゴ ゴ ゴ ゴ ゴ ゴ ゴ ゴ</text>
+</svg>

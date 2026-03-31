@@ -1,0 +1,134 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 200" width="680" height="200">
+  <style>
+    @keyframes scan {
+      0% { x: -680; }
+      100% { x: 680; }
+    }
+    @keyframes fadeLoop {
+      0%, 100% { opacity: 0.3; }
+      50% { opacity: 1; }
+    }
+    @keyframes marquee {
+      0% { transform: translateX(0); }
+      100% { transform: translateX(-50%); }
+    }
+    @keyframes waveBar {
+      0%, 100% { height: 10px; y: 140; }
+      50% { height: 60px; y: 90; }
+    }
+
+    .bg { fill: #0d1117; }
+    .border { fill: none; stroke: #1a0a2e; stroke-width: 1.5; rx: 10; ry: 10; }
+    text { font-family: 'Courier New', monospace; }
+    .title { fill: #C678DD; font-size: 14px; font-weight: bold; }
+    .sub { fill: #5C6370; font-size: 10px; }
+
+    .bar { rx: 2; ry: 2; }
+    .b1  { fill: #C678DD; animation: waveBar 2.0s 0.0s infinite ease-in-out; }
+    .b2  { fill: #C678DD; animation: waveBar 2.0s 0.1s infinite ease-in-out; }
+    .b3  { fill: #E06C75; animation: waveBar 2.0s 0.2s infinite ease-in-out; }
+    .b4  { fill: #E06C75; animation: waveBar 2.0s 0.3s infinite ease-in-out; }
+    .b5  { fill: #98C379; animation: waveBar 2.0s 0.4s infinite ease-in-out; }
+    .b6  { fill: #98C379; animation: waveBar 2.0s 0.5s infinite ease-in-out; }
+    .b7  { fill: #E5C07B; animation: waveBar 2.0s 0.6s infinite ease-in-out; }
+    .b8  { fill: #E5C07B; animation: waveBar 2.0s 0.7s infinite ease-in-out; }
+    .b9  { fill: #61AFEF; animation: waveBar 2.0s 0.8s infinite ease-in-out; }
+    .b10 { fill: #61AFEF; animation: waveBar 2.0s 0.9s infinite ease-in-out; }
+    .b11 { fill: #C678DD; animation: waveBar 2.0s 1.0s infinite ease-in-out; }
+    .b12 { fill: #C678DD; animation: waveBar 2.0s 1.1s infinite ease-in-out; }
+    .b13 { fill: #56B6C2; animation: waveBar 2.0s 1.2s infinite ease-in-out; }
+    .b14 { fill: #56B6C2; animation: waveBar 2.0s 1.3s infinite ease-in-out; }
+    .b15 { fill: #E06C75; animation: waveBar 2.0s 1.4s infinite ease-in-out; }
+    .b16 { fill: #E06C75; animation: waveBar 2.0s 1.5s infinite ease-in-out; }
+    .b17 { fill: #98C379; animation: waveBar 2.0s 1.6s infinite ease-in-out; }
+    .b18 { fill: #98C379; animation: waveBar 2.0s 1.7s infinite ease-in-out; }
+    .b19 { fill: #E5C07B; animation: waveBar 2.0s 1.8s infinite ease-in-out; }
+    .b20 { fill: #E5C07B; animation: waveBar 2.0s 1.9s infinite ease-in-out; }
+    .b21 { fill: #C678DD; animation: waveBar 2.0s 0.05s infinite ease-in-out; }
+    .b22 { fill: #61AFEF; animation: waveBar 2.0s 0.15s infinite ease-in-out; }
+    .b23 { fill: #56B6C2; animation: waveBar 2.0s 0.25s infinite ease-in-out; }
+    .b24 { fill: #E06C75; animation: waveBar 2.0s 0.35s infinite ease-in-out; }
+    .b25 { fill: #98C379; animation: waveBar 2.0s 0.45s infinite ease-in-out; }
+    .b26 { fill: #E5C07B; animation: waveBar 2.0s 0.55s infinite ease-in-out; }
+    .b27 { fill: #C678DD; animation: waveBar 2.0s 0.65s infinite ease-in-out; }
+    .b28 { fill: #61AFEF; animation: waveBar 2.0s 0.75s infinite ease-in-out; }
+    .b29 { fill: #56B6C2; animation: waveBar 2.0s 0.85s infinite ease-in-out; }
+    .b30 { fill: #E06C75; animation: waveBar 2.0s 0.95s infinite ease-in-out; }
+
+    .scanline { fill: url(#scanGrad); animation: scan 3s infinite linear; }
+    .menacing { fill: #E06C75; font-size: 9px; animation: fadeLoop 2s infinite; }
+
+    .label-item { fill: #ABB2BF; font-size: 11px; }
+    .dot { r: 4; }
+  </style>
+
+  <defs>
+    <linearGradient id="scanGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#C678DD" stop-opacity="0" />
+      <stop offset="50%" stop-color="#C678DD" stop-opacity="0.15" />
+      <stop offset="100%" stop-color="#C678DD" stop-opacity="0" />
+    </linearGradient>
+  </defs>
+
+  <rect class="bg" x="0" y="0" width="680" height="200" rx="10" ry="10" />
+  <rect class="border" x="1" y="1" width="678" height="198" />
+
+  <!-- Scanline effect -->
+  <rect class="scanline" x="-680" y="0" width="680" height="200" rx="10" ry="10" />
+
+  <!-- Title -->
+  <text x="25" y="30" class="title">「STAND ACTIVITY」</text>
+  <text x="25" y="45" class="sub">Coding frequency — The rhythm of a Stand User</text>
+
+  <!-- Wave bars -->
+  <rect class="bar b1"  x="25"  y="140" width="8" height="10" />
+  <rect class="bar b2"  x="37"  y="140" width="8" height="10" />
+  <rect class="bar b3"  x="49"  y="140" width="8" height="10" />
+  <rect class="bar b4"  x="61"  y="140" width="8" height="10" />
+  <rect class="bar b5"  x="73"  y="140" width="8" height="10" />
+  <rect class="bar b6"  x="85"  y="140" width="8" height="10" />
+  <rect class="bar b7"  x="97"  y="140" width="8" height="10" />
+  <rect class="bar b8"  x="109" y="140" width="8" height="10" />
+  <rect class="bar b9"  x="121" y="140" width="8" height="10" />
+  <rect class="bar b10" x="133" y="140" width="8" height="10" />
+  <rect class="bar b11" x="145" y="140" width="8" height="10" />
+  <rect class="bar b12" x="157" y="140" width="8" height="10" />
+  <rect class="bar b13" x="169" y="140" width="8" height="10" />
+  <rect class="bar b14" x="181" y="140" width="8" height="10" />
+  <rect class="bar b15" x="193" y="140" width="8" height="10" />
+  <rect class="bar b16" x="205" y="140" width="8" height="10" />
+  <rect class="bar b17" x="217" y="140" width="8" height="10" />
+  <rect class="bar b18" x="229" y="140" width="8" height="10" />
+  <rect class="bar b19" x="241" y="140" width="8" height="10" />
+  <rect class="bar b20" x="253" y="140" width="8" height="10" />
+  <rect class="bar b21" x="265" y="140" width="8" height="10" />
+  <rect class="bar b22" x="277" y="140" width="8" height="10" />
+  <rect class="bar b23" x="289" y="140" width="8" height="10" />
+  <rect class="bar b24" x="301" y="140" width="8" height="10" />
+  <rect class="bar b25" x="313" y="140" width="8" height="10" />
+  <rect class="bar b26" x="325" y="140" width="8" height="10" />
+  <rect class="bar b27" x="337" y="140" width="8" height="10" />
+  <rect class="bar b28" x="349" y="140" width="8" height="10" />
+  <rect class="bar b29" x="361" y="140" width="8" height="10" />
+  <rect class="bar b30" x="373" y="140" width="8" height="10" />
+
+  <!-- Legend -->
+  <circle cx="440" cy="80" r="4" fill="#C678DD" />
+  <text x="450" y="84" class="label-item">TypeScript</text>
+  <circle cx="440" cy="100" r="4" fill="#E06C75" />
+  <text x="450" y="104" class="label-item">Python</text>
+  <circle cx="440" cy="120" r="4" fill="#98C379" />
+  <text x="450" y="124" class="label-item">SQL</text>
+  <circle cx="550" cy="80" r="4" fill="#E5C07B" />
+  <text x="560" y="84" class="label-item">GraphQL</text>
+  <circle cx="550" cy="100" r="4" fill="#61AFEF" />
+  <text x="560" y="104" class="label-item">Docker</text>
+  <circle cx="550" cy="120" r="4" fill="#56B6C2" />
+  <text x="560" y="124" class="label-item">Bash</text>
+
+  <!-- Baseline -->
+  <line x1="25" y1="155" x2="385" y2="155" stroke="#1a0a2e" stroke-width="1" />
+
+  <!-- Menacing -->
+  <text x="340" y="185" text-anchor="middle" class="menacing">ゴ ゴ ゴ ゴ ゴ ゴ ゴ ゴ ゴ ゴ ゴ ゴ ゴ ゴ ゴ ゴ ゴ ゴ ゴ ゴ ゴ ゴ ゴ ゴ ゴ ゴ ゴ ゴ ゴ ゴ ゴ ゴ ゴ</text>
+</svg>

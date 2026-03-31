@@ -1,0 +1,131 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 440" width="680" height="440">
+  <style>
+    @keyframes typing {
+      0% { opacity: 0; }
+      1% { opacity: 1; }
+      100% { opacity: 1; }
+    }
+    @keyframes blink {
+      0%, 100% { opacity: 1; }
+      50% { opacity: 0; }
+    }
+    @keyframes explode {
+      0% { opacity: 0; transform: scale(0.8); }
+      50% { opacity: 1; transform: scale(1.05); }
+      100% { opacity: 1; transform: scale(1); }
+    }
+    @keyframes shake {
+      0%, 100% { transform: translateX(0); }
+      25% { transform: translateX(-2px); }
+      75% { transform: translateX(2px); }
+    }
+    @keyframes glowRed {
+      0%, 100% { filter: drop-shadow(0 0 2px #E06C75); }
+      50% { filter: drop-shadow(0 0 12px #E06C75); }
+    }
+
+    .bg { fill: #0d1117; rx: 10; ry: 10; }
+    .border { fill: none; stroke: #E06C75; stroke-width: 2; rx: 10; ry: 10; animation: glowRed 3s infinite; }
+    text { font-family: 'Courier New', monospace; font-size: 13px; }
+    .cmd { fill: #E06C75; }
+    .title { fill: #E06C75; font-size: 16px; font-weight: bold; }
+    .info { fill: #ABB2BF; }
+    .success { fill: #98C379; }
+    .danger { fill: #E06C75; font-weight: bold; }
+    .warn { fill: #E5C07B; }
+    .accent { fill: #C678DD; }
+    .separator { fill: #5C6370; }
+    .skull { fill: #E06C75; font-size: 11px; }
+
+    .line { opacity: 0; }
+    .l1  { animation: typing 0.1s 0.3s forwards; }
+    .l2  { animation: typing 0.1s 0.9s forwards; }
+    .l3  { animation: typing 0.1s 1.4s forwards; }
+    .l4  { animation: typing 0.1s 1.8s forwards; }
+    .l5  { animation: typing 0.1s 2.2s forwards; }
+    .l6  { animation: typing 0.1s 2.6s forwards; }
+    .l7  { animation: typing 0.1s 3.0s forwards; }
+    .l8  { animation: typing 0.1s 3.4s forwards; }
+    .l9  { animation: typing 0.1s 3.8s forwards; }
+    .l10 { animation: typing 0.1s 4.2s forwards; }
+    .l11 { animation: typing 0.1s 4.8s forwards; }
+    .l12 { animation: explode 0.6s 5.4s forwards; }
+    .l13 { animation: explode 0.6s 6.0s forwards; }
+    .l14 { animation: typing 0.1s 6.8s forwards; }
+    .l15 { animation: typing 0.1s 7.4s forwards; }
+
+    .cursor { animation: blink 0.8s infinite; fill: #E06C75; }
+    .boom { animation: shake 0.3s 5.4s 3; }
+  </style>
+
+  <rect class="bg" x="0" y="0" width="680" height="440" />
+  <rect class="border" x="1" y="1" width="678" height="438" />
+
+  <!-- Terminal dots -->
+  <circle cx="22" cy="18" r="6" fill="#E06C75" />
+  <circle cx="40" cy="18" r="6" fill="#E5C07B" />
+  <circle cx="58" cy="18" r="6" fill="#98C379" />
+
+  <g class="line l1">
+    <text x="25" y="55" class="cmd">$ jr45 test --mode=killer-queen</text>
+    <rect class="cursor" x="350" y="43" width="8" height="15" />
+  </g>
+
+  <g class="line l2">
+    <text x="25" y="85" class="title">「KILLER QUEEN」 — FIRST BOMB</text>
+  </g>
+
+  <g class="line l3">
+    <text x="25" y="110" class="warn">💣  Killer Queen has already touched this codebase.</text>
+  </g>
+
+  <g class="line l4">
+    <text x="25" y="135" class="separator">━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</text>
+  </g>
+
+  <g class="line l5">
+    <text x="25" y="165" class="info">⠋  Linting codebase ............... 0 warnings</text>
+  </g>
+
+  <g class="line l6">
+    <text x="25" y="190" class="info">⠙  Running unit tests ............. 147 passed</text>
+  </g>
+
+  <g class="line l7">
+    <text x="25" y="215" class="info">⠹  Integration tests .............. 38 passed</text>
+  </g>
+
+  <g class="line l8">
+    <text x="25" y="240" class="info">⠸  Checking type safety ........... strict mode</text>
+  </g>
+
+  <g class="line l9">
+    <text x="25" y="265" class="accent">⠼  Arming First Bomb .............. charged</text>
+  </g>
+
+  <g class="line l10">
+    <text x="25" y="290" class="separator">━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</text>
+  </g>
+
+  <g class="boom">
+    <g class="line l11">
+      <text x="25" y="315" class="danger">💥  DETONATING — All bugs eliminated.</text>
+    </g>
+  </g>
+
+  <g class="line l12">
+    <text x="25" y="345" class="success">✓  0 bugs survived. Nothing remains.</text>
+  </g>
+
+  <g class="line l13">
+    <text x="25" y="370" class="success">✓  Clean code. Quiet life achieved.</text>
+  </g>
+
+  <g class="line l14">
+    <text x="25" y="400" class="skull">💀  「BITE ZA DUSTO」 — Ready for revert if needed.</text>
+  </g>
+
+  <g class="line l15">
+    <text x="25" y="425" class="danger">Yoshikage Kira: I just want a quiet deployment...</text>
+  </g>
+</svg>

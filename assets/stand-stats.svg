@@ -1,0 +1,120 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 520" width="420" height="520">
+  <style>
+    @keyframes fadeIn { 0% { opacity: 0; } 100% { opacity: 1; } }
+    @keyframes fillBar1 { 0% { width: 0; } 100% { width: 180px; } }
+    @keyframes fillBar2 { 0% { width: 0; } 100% { width: 160px; } }
+    @keyframes fillBar3 { 0% { width: 0; } 100% { width: 200px; } }
+    @keyframes fillBar4 { 0% { width: 0; } 100% { width: 140px; } }
+    @keyframes fillBar5 { 0% { width: 0; } 100% { width: 170px; } }
+    @keyframes fillBar6 { 0% { width: 0; } 100% { width: 190px; } }
+    @keyframes pulse { 0%,100% { opacity: 0.6; } 50% { opacity: 1; } }
+    @keyframes glowBox { 0%,100% { filter: drop-shadow(0 0 3px #C678DD44); } 50% { filter: drop-shadow(0 0 10px #C678DDAA); } }
+    @keyframes slideIn { 0% { transform: translateX(-20px); opacity: 0; } 100% { transform: translateX(0); opacity: 1; } }
+
+    .bg { fill: #0d1117; }
+    .card-border { fill: none; stroke: #C678DD; stroke-width: 1.5; rx: 12; ry: 12; animation: glowBox 3s infinite; }
+    .header-bg { fill: #1a0a2e; }
+    text { font-family: 'Courier New', monospace; }
+    .title { fill: #C678DD; font-size: 20px; font-weight: bold; }
+    .subtitle { fill: #E06C75; font-size: 11px; }
+    .label { fill: #ABB2BF; font-size: 13px; }
+    .rank { fill: #E5C07B; font-size: 14px; font-weight: bold; }
+    .bar-bg { fill: #1e2030; rx: 4; ry: 4; height: 12; }
+    .bar-track { rx: 4; ry: 4; height: 12; }
+    .grade { fill: #C678DD; font-size: 13px; font-weight: bold; }
+    .divider { stroke: #1a0a2e; stroke-width: 1; }
+    .footer { fill: #5C6370; font-size: 10px; }
+
+    .stat-row { opacity: 0; }
+    .stat-row-1 { animation: slideIn 0.5s 0.8s forwards; }
+    .stat-row-2 { animation: slideIn 0.5s 1.1s forwards; }
+    .stat-row-3 { animation: slideIn 0.5s 1.4s forwards; }
+    .stat-row-4 { animation: slideIn 0.5s 1.7s forwards; }
+    .stat-row-5 { animation: slideIn 0.5s 2.0s forwards; }
+    .stat-row-6 { animation: slideIn 0.5s 2.3s forwards; }
+
+    .bar-fill-1 { fill: #C678DD; height: 12; rx: 4; ry: 4; animation: fillBar1 1.2s 1.0s forwards; width: 0; }
+    .bar-fill-2 { fill: #E06C75; height: 12; rx: 4; ry: 4; animation: fillBar2 1.2s 1.3s forwards; width: 0; }
+    .bar-fill-3 { fill: #98C379; height: 12; rx: 4; ry: 4; animation: fillBar3 1.2s 1.6s forwards; width: 0; }
+    .bar-fill-4 { fill: #E5C07B; height: 12; rx: 4; ry: 4; animation: fillBar4 1.2s 1.9s forwards; width: 0; }
+    .bar-fill-5 { fill: #61AFEF; height: 12; rx: 4; ry: 4; animation: fillBar5 1.2s 2.2s forwards; width: 0; }
+    .bar-fill-6 { fill: #56B6C2; height: 12; rx: 4; ry: 4; animation: fillBar6 1.2s 2.5s forwards; width: 0; }
+
+    .header-anim { opacity: 0; animation: fadeIn 0.8s 0.2s forwards; }
+    .menacing { fill: #E06C75; font-size: 9px; animation: pulse 2s infinite; }
+  </style>
+
+  <!-- Card background -->
+  <rect class="bg" x="0" y="0" width="420" height="520" rx="12" ry="12" />
+  <rect class="card-border" x="1" y="1" width="418" height="518" />
+
+  <!-- Header area -->
+  <rect class="header-bg" x="1" y="1" width="418" height="70" rx="12" ry="12" />
+  <rect class="header-bg" x="1" y="40" width="418" height="31" />
+
+  <g class="header-anim">
+    <text x="210" y="35" text-anchor="middle" class="title">「STAND PARAMETERS」</text>
+    <text x="210" y="55" text-anchor="middle" class="subtitle">ゴゴゴ  JR-45 — Stand Master  ゴゴゴ</text>
+  </g>
+
+  <line class="divider" x1="20" y1="80" x2="400" y2="80" />
+
+  <!-- Power: Backend -->
+  <g class="stat-row stat-row-1">
+    <text x="25" y="115" class="label">破壊力 POWER</text>
+    <text x="25" y="132" class="footer">Backend / FastAPI</text>
+    <rect class="bar-bg" x="165" y="104" width="200" />
+    <rect class="bar-fill-1" x="165" y="104" />
+    <text x="375" y="116" class="grade">A</text>
+  </g>
+
+  <!-- Speed: Development -->
+  <g class="stat-row stat-row-2">
+    <text x="25" y="180" class="label">スピード SPEED</text>
+    <text x="25" y="197" class="footer">Dev Speed / Bun</text>
+    <rect class="bar-bg" x="165" y="169" width="200" />
+    <rect class="bar-fill-2" x="165" y="169" />
+    <text x="375" y="181" class="grade">B</text>
+  </g>
+
+  <!-- Range: Full Stack -->
+  <g class="stat-row stat-row-3">
+    <text x="25" y="245" class="label">射程距離 RANGE</text>
+    <text x="25" y="262" class="footer">Full Stack / TypeScript</text>
+    <rect class="bar-bg" x="165" y="234" width="200" />
+    <rect class="bar-fill-3" x="165" y="234" />
+    <text x="375" y="246" class="grade">A+</text>
+  </g>
+
+  <!-- Durability: Database -->
+  <g class="stat-row stat-row-4">
+    <text x="25" y="310" class="label">持続力 DURABILITY</text>
+    <text x="25" y="327" class="footer">Database / PostgreSQL</text>
+    <rect class="bar-bg" x="165" y="299" width="200" />
+    <rect class="bar-fill-4" x="165" y="299" />
+    <text x="375" y="311" class="grade">B</text>
+  </g>
+
+  <!-- Precision: DevOps -->
+  <g class="stat-row stat-row-5">
+    <text x="25" y="375" class="label">精密動作 PRECISION</text>
+    <text x="25" y="392" class="footer">DevOps / Docker</text>
+    <rect class="bar-bg" x="165" y="364" width="200" />
+    <rect class="bar-fill-5" x="165" y="364" />
+    <text x="375" y="376" class="grade">A</text>
+  </g>
+
+  <!-- Potential: Learning -->
+  <g class="stat-row stat-row-6">
+    <text x="25" y="440" class="label">成長性 POTENTIAL</text>
+    <text x="25" y="457" class="footer">Growth / Learning</text>
+    <rect class="bar-bg" x="165" y="429" width="200" />
+    <rect class="bar-fill-6" x="165" y="429" />
+    <text x="375" y="441" class="grade">A+</text>
+  </g>
+
+  <line class="divider" x1="20" y1="475" x2="400" y2="475" />
+
+  <!-- Footer -->
+  <text x="210" y="500" text-anchor="middle" class="menacing">ゴ ゴ ゴ ゴ ゴ ゴ ゴ ゴ ゴ ゴ ゴ ゴ ゴ ゴ ゴ ゴ ゴ ゴ ゴ ゴ ゴ ゴ ゴ ゴ ゴ ゴ</text>
+</svg>
