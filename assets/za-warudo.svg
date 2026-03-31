@@ -1,0 +1,144 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 520" width="680" height="520">
+  <style>
+    @keyframes typing {
+      0% { opacity: 0; }
+      1% { opacity: 1; }
+      100% { opacity: 1; }
+    }
+    @keyframes blink {
+      0%, 100% { opacity: 1; }
+      50% { opacity: 0; }
+    }
+    @keyframes glow {
+      0%, 100% { filter: drop-shadow(0 0 2px #C678DD); }
+      50% { filter: drop-shadow(0 0 8px #C678DD); }
+    }
+
+    .bg { fill: #0d1117; rx: 10; ry: 10; }
+    .border { fill: none; stroke: #1a0a2e; stroke-width: 2; rx: 10; ry: 10; }
+    text { font-family: 'Courier New', monospace; font-size: 13px; }
+    .cmd { fill: #C678DD; }
+    .title { fill: #C678DD; font-size: 15px; font-weight: bold; }
+    .info { fill: #ABB2BF; }
+    .success { fill: #98C379; }
+    .warn { fill: #E06C75; }
+    .accent { fill: #E5C07B; }
+    .separator { fill: #5C6370; }
+    .muda { fill: #E06C75; font-weight: bold; }
+    .requiem { fill: #C678DD; font-weight: bold; }
+    .nani { fill: #E06C75; font-weight: bold; }
+
+    .line { opacity: 0; }
+    .line-01 { animation: typing 0.1s 0.5s forwards; }
+    .line-02 { animation: typing 0.1s 1.2s forwards; }
+    .line-03 { animation: typing 0.1s 1.8s forwards; }
+    .line-04 { animation: typing 0.1s 2.2s forwards; }
+    .line-05 { animation: typing 0.1s 2.6s forwards; }
+    .line-06 { animation: typing 0.1s 3.2s forwards; }
+    .line-07 { animation: typing 0.1s 3.6s forwards; }
+    .line-08 { animation: typing 0.1s 4.0s forwards; }
+    .line-09 { animation: typing 0.1s 4.4s forwards; }
+    .line-10 { animation: typing 0.1s 4.8s forwards; }
+    .line-11 { animation: typing 0.1s 5.4s forwards; }
+    .line-12 { animation: typing 0.1s 5.8s forwards; }
+    .line-13 { animation: typing 0.1s 6.4s forwards; }
+    .line-14 { animation: typing 0.1s 6.8s forwards; }
+    .line-15 { animation: typing 0.1s 7.2s forwards; }
+    .line-16 { animation: typing 0.1s 7.6s forwards; }
+    .line-17 { animation: typing 0.1s 8.2s forwards; }
+    .line-18 { animation: typing 0.1s 9.0s forwards; }
+    .line-19 { animation: typing 0.1s 9.8s forwards; }
+
+    .glow-title { animation: glow 2s 1.2s infinite; }
+    .cursor { animation: blink 0.8s infinite; fill: #C678DD; }
+  </style>
+
+  <!-- Background -->
+  <rect class="bg" x="0" y="0" width="680" height="520" />
+  <rect class="border" x="1" y="1" width="678" height="518" />
+
+  <!-- Terminal dots -->
+  <circle cx="22" cy="18" r="6" fill="#E06C75" />
+  <circle cx="40" cy="18" r="6" fill="#E5C07B" />
+  <circle cx="58" cy="18" r="6" fill="#98C379" />
+
+  <!-- Command prompt -->
+  <g class="line line-01">
+    <text x="25" y="55" class="cmd">$ jr45 deploy --mode=za-warudo</text>
+    <rect class="cursor" x="340" y="43" width="8" height="15" />
+  </g>
+
+  <!-- Title -->
+  <g class="line line-02 glow-title">
+    <text x="25" y="90" class="title">「ZA WARUDO」</text>
+  </g>
+
+  <!-- Time stopped -->
+  <g class="line line-03">
+    <text x="25" y="115" class="accent">⏱️  Time has stopped.</text>
+  </g>
+
+  <!-- Separator -->
+  <g class="line line-04">
+    <text x="25" y="140" class="separator">━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</text>
+  </g>
+
+  <!-- Scanning -->
+  <g class="line line-05">
+    <text x="25" y="170" class="info">⠋  Scanning codebase .............. 1,247 files found</text>
+  </g>
+
+  <!-- Eliminating -->
+  <g class="line line-06">
+    <text x="25" y="195" class="info">⠙  Eliminating bugs ............... ∞ terminated</text>
+  </g>
+
+  <!-- Injecting -->
+  <g class="line line-07">
+    <text x="25" y="220" class="info">⠹  Injecting Stand power .......... 100%</text>
+  </g>
+
+  <!-- MUDA -->
+  <g class="line line-08">
+    <text x="25" y="245" class="muda">⠸  MUDA MUDA MUDA MUDA MUDA MUDA!</text>
+  </g>
+
+  <!-- Pushing -->
+  <g class="line line-09">
+    <text x="25" y="270" class="warn">⠼  Pushing to production .......... WRYYYYYYYY!</text>
+  </g>
+
+  <!-- Separator 2 -->
+  <g class="line line-10">
+    <text x="25" y="295" class="separator">━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</text>
+  </g>
+
+  <!-- Time resumes -->
+  <g class="line line-11">
+    <text x="25" y="320" class="accent">⏱️  Time resumes.</text>
+  </g>
+
+  <!-- Success lines -->
+  <g class="line line-12">
+    <text x="25" y="350" class="success">✓  Build successful.</text>
+  </g>
+  <g class="line line-13">
+    <text x="25" y="375" class="success">✓  All bugs eliminated.</text>
+  </g>
+  <g class="line line-14">
+    <text x="25" y="400" class="success">✓  Code fixed.</text>
+  </g>
+  <g class="line line-15">
+    <text x="25" y="425" class="success">✓  You will never reach the truth.</text>
+  </g>
+
+  <!-- Requiem -->
+  <g class="line line-16">
+    <text x="25" y="455" class="requiem">「REQUIEM」 Deploy complete.</text>
+  </g>
+
+  <!-- NANI -->
+  <g class="line line-17">
+    <text x="25" y="485" class="nani">Enemy Stand User: ... NANI?!</text>
+  </g>
+</svg>
