@@ -13,9 +13,52 @@
 <div align="center">
 
 ```
+  ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓
+  ▓                                                                    ▓
+  ▓   ┌─── S T A N D   A N A L Y S I S ──────────────────────────┐    ▓
+  ▓   │                                                           │    ▓
+  ▓   │   SUBJECT .............. Jeton                            │    ▓
+  ▓   │   CODENAME ............. 「JR-45」                         │    ▓
+  ▓   │   STAND ABILITY ........ Mass Deployment at Light Speed   │    ▓
+  ▓   │   AFFILIATION .......... HKA · Karlsruhe                  │    ▓
+  ▓   │   STATUS ............... ██████████ ACTIVE                │    ▓
+  ▓   │   THREAT LEVEL ......... S+                               │    ▓
+  ▓   │   ALIGNMENT ............ Chaotic Deployer                 │    ▓
+  ▓   │                                                           │    ▓
+  ▓   │   "I reject my humanity, JoJo!"                           │    ▓
+  ▓   │                         — DIO, probably watching me code  │    ▓
+  ▓   │                                                           │    ▓
+  ▓   └───────────────────────────────────────────────────────────┘    ▓
+  ▓                                                                    ▓
+  ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓
+```
 
 </div>
 
+---
+
+### ゴゴゴ Stand Stats — 「DESTRUCTIVE POWER」
+
+```
+  ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  TypeScript  ████████████████████░░  A    ← 「THE WORLD」
+  Python      ████████████████████░░  A    ← 「KILLER QUEEN」
+  Bun         ███████████████████░░░  A    ← 「MADE IN HEAVEN」
+  FastAPI     ██████████████████░░░░  B+   ← 「KING CRIMSON」
+  PostgreSQL  ██████████████████░░░░  B+   ← 「D4C」
+  Docker      █████████████████░░░░░  B    ← 「WHITESNAKE」
+  GraphQL     ████████████████░░░░░░  B    ← 「STONE FREE」
+  Git         ████████████████████░░  A    ← 「GOLD EXPERIENCE」
+
+  ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  POWER ......... A        RANGE ......... B
+  SPEED ......... A        DURABILITY .... A
+  PRECISION ..... A        POTENTIAL ..... A+
+
+  ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+```
 
 ---
 
@@ -35,6 +78,83 @@
 
 </div>
 
+---
+
+### 🩸「ZA WARUDO」— Time Stop Deployment
+
+```
+  ┌──────────────────────────────────────────────────────────────────┐
+  │                                                                  │
+  │  $ jr45 deploy --mode=za-warudo                                  │
+  │                                                                  │
+  │  「ZA WARUDO」                                                    │
+  │  ⏱️  Time has stopped.                                            │
+  │  ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━   │
+  │                                                                  │
+  │  ⠋  Scanning codebase .............. 1,247 files found           │
+  │  ⠙  Eliminating bugs ............... ∞ terminated                │
+  │  ⠹  Injecting Stand power .......... 100%                        │
+  │  ⠸  MUDA MUDA MUDA MUDA MUDA MUDA!                              │
+  │  ⠼  Pushing to production .......... WRYYYYYYYY!                 │
+  │                                                                  │
+  │  ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━   │
+  │  ⏱️  Time resumes.                                                │
+  │                                                                  │
+  │  ✓  Build successful.                                            │
+  │  ✓  All bugs eliminated.                                         │
+  │  ✓  Code fixed.                                                  │
+  │  ✓  You will never reach the truth.                              │
+  │                                                                  │
+  │  「REQUIEM」 Deploy complete.                                     │
+  │                                                                  │
+  │  Enemy Stand User: ... NANI?!                                    │
+  │                                                                  │
+  └──────────────────────────────────────────────────────────────────┘
+```
+
+---
+
+### 📊 Kill Count — 「BODY COUNT」
+
+<div align="center">
+
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=JR-45&hide_border=true&background=0d1117&ring=C678DD&fire=E06C75&currStreakLabel=C678DD&sideLabels=ABB2BF&dates=636e72&currStreakNum=ABB2BF&sideNums=ABB2BF" width="60%" />
+
+</div>
+
+---
+
+### 📖 Villain Monologue — 「THE ULTIMATE LIFEFORM」
+
+<div align="center">
+
+```
+  ゴ                                                                    ゴ
+  ゴ                                                                    ゴ
+  ゴ   "You thought your code was safe? But it was me, JR-45!"         ゴ
+  ゴ                                           — DIO                    ゴ
+  ゴ                                                                    ゴ
+  ゴ   "I, JR-45, have a dream."                                       ゴ
+  ゴ                                           — Giorno Giovanna        ゴ
+  ゴ                                                                    ゴ
+  ゴ   "Every bug I fix brings me one step closer to Heaven."           ゴ
+  ゴ                                           — Enrico Pucci           ゴ
+  ゴ                                                                    ゴ
+  ゴ   "Killer Queen has already touched that deploy button."           ゴ
+  ゴ                                           — Kira Yoshikage         ゴ
+  ゴ                                                                    ゴ
+  ゴ   "Suppose that you were sitting down at this table.               ゴ
+  ゴ    The mass deployment was already finished."                      ゴ
+  ゴ                                           — Funny Valentine        ゴ
+  ゴ                                                                    ゴ
+  ゴ   "It's useless. No one can escape the fate that was              ゴ
+  ゴ    chosen for them. All that remains is the end."                  ゴ
+  ゴ                                           — Diavolo                ゴ
+  ゴ                                                                    ゴ
+  ゴ                                                                    ゴ
+```
+
+</div>
 
 ---
 
