@@ -16,11 +16,6 @@
 
 </div>
 
----
-
-### ゴゴゴ Stand Stats — 「DESTRUCTIVE POWER」
-
-```
 
 ---
 
