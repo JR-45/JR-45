@@ -82,29 +82,21 @@
 
 ### 🩸 Stand Ability — 「THE WORLD: OVER HEAVEN」
 
-```python
-class TheWorld:
-    """You thought it was a normal dev? Kono JR-45 da!"""
+```
+  $ jr45 deploy --mode=za-warudo
 
-    def __init__(self):
-        self.user        = "Jeton"
-        self.stand       = "「JR-45」"
-        self.ability     = "Mass Deployment at Light Speed"
-        self.kill_count  = float('inf')  # bugs eliminated
+  ⏱️  「ZA WARUDO」 Time has stopped.
+  ⠋  Compiling mass deployment...
+  ⠙  Eliminating bugs ........... ∞ terminated
+  ⠹  Injecting Stand power ...... 100%
+  ⠸  Pushing to production ...... WRYYYYYYYY!
+  ⏱️  Time resumes.
 
-    def time_stop(self):
-        """「ZA WARUDO」⏱️ Time has stopped."""
-        self.deploy()
-        self.eliminate_all_bugs()
-        # ⏱️ Time resumes. Build successful.
+  ✓  Build successful.
+  ✓  All bugs eliminated.
+  ✓  You will never reach the truth.
 
-    def deploy(self):
-        print("WRYYYYYYYY! 🚀")
-
-    def eliminate_all_bugs(self):
-        while True:
-            print("MUDA MUDA MUDA MUDA! 👊")
-            # This is... Requiem. You will never reach the truth.
+  「REQUIEM」 Deploy complete. No one can oppose you.
 ```
 
 ---
