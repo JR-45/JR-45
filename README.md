@@ -13,25 +13,6 @@
 <div align="center">
 
 ```
-                                        ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓
-                                        ▓                                                                    ▓
-                                        ▓   ┌─── S T A N D   A N A L Y S I S ──────────────────────────┐     ▓
-                                        ▓   │                                                           │    ▓
-                                        ▓   │   SUBJECT .............. Jeton                            │    ▓
-                                        ▓   │   CODENAME ............. 「JR-45」                         │    ▓
-                                        ▓   │   STAND ABILITY ........ Mass Deployment at Light Speed   │    ▓
-                                        ▓   │   AFFILIATION .......... HKA · Karlsruhe                  │    ▓
-                                        ▓   │   STATUS ............... ██████████ ACTIVE                │    ▓
-                                        ▓   │   THREAT LEVEL ......... S+                               │    ▓
-                                        ▓   │   ALIGNMENT ............ Chaotic Deployer                 │    ▓
-                                        ▓   │                                                           │    ▓
-                                        ▓   │   "I reject my humanity, JoJo!"                           │    ▓
-                                        ▓   │                         — DIO, probably watching me code  │    ▓
-                                        ▓   │                                                           │    ▓
-                                        ▓   └───────────────────────────────────────────────────────────┘    ▓
-                                        ▓                                                                    ▓
-                                        ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓
-```
 
 </div>
 
@@ -39,25 +20,6 @@
 
 ### ゴゴゴ Stand Stats — 「DESTRUCTIVE POWER」
 
-```
-  ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-
-  TypeScript  ████████████████████░░  A    ← 「THE WORLD」
-  Python      ████████████████████░░  A    ← 「KILLER QUEEN」
-  Bun         ███████████████████░░░  A    ← 「MADE IN HEAVEN」
-  FastAPI     ██████████████████░░░░  B+   ← 「KING CRIMSON」
-  PostgreSQL  ██████████████████░░░░  B+   ← 「D4C」
-  Docker      █████████████████░░░░░  B    ← 「WONDER OF U」
-  GraphQL     ████████████████░░░░░░  B    ← 「C-MOON」
-  Git         ████████████████████░░  A    ← 「GOLD EXPERIENCE」
-
-  ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-
-  POWER ......... A        RANGE ......... B
-  SPEED ......... A        DURABILITY .... A
-  PRECISION ..... A        POTENTIAL ..... A+
-
-  ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 ```
 
 ---
@@ -78,15 +40,6 @@
 
 </div>
 
----
-
-### 📊 Kill Count — 「BODY COUNT」
-
-<div align="center">
-
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=JR-45&hide_border=true&background=0d1117&ring=C678DD&fire=E06C75&currStreakLabel=C678DD&sideLabels=ABB2BF&dates=636e72&currStreakNum=ABB2BF&sideNums=ABB2BF" width="60%" />
-
-</div>
 
 ---
 
