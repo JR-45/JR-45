@@ -37,24 +37,12 @@
 
 ---
 
-### 🩸「ZA WARUDO」— Time Stop Deployment
+*Rero rero rero rero rero rero rero rero* 🍒
 
-<div align="center">
-  <img src="./assets/za-warudo.svg" width="100%" alt="Za Warudo Deploy Animation" />
-</div>
+<br>
 
----
+  <img src="./assets/adventure-cherries.gif" width="400" alt="Kakyoin - Rerorerorerorero" />
 
-<div align="center">
-  <img src="./assets/adventure-cherries.gif" width="400" alt="Killer Queen - Rerorerorerorero" />
-</div>
-
----
-
-### 🌀「WONDER OF U」— Calamity Security
-
-<div align="center">
-  <img src="./assets/wonder-of-u.svg" width="100%" alt="Wonder of U Security Animation" />
 </div>
 
 ---
