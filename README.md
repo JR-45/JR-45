@@ -33,38 +33,11 @@
 
 ---
 
-### 🩸「ZA WARUDO」— Time Stop Deployment
+### ⚔️「ZA WARUDO」— Time Stop Deployment
 
-```
-  ┌──────────────────────────────────────────────────────────────────┐
-  │                                                                  │
-  │  $ jr45 deploy --mode=za-warudo                                  │
-  │                                                                  │
-  │  「ZA WARUDO」                                                    │
-  │  ⏱️  Time has stopped.                                           │
-  │  ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━    │
-  │                                                                  │
-  │  ⠋  Scanning codebase .............. 1,247 files found           │
-  │  ⠙  Eliminating bugs ............... ∞ terminated                │
-  │  ⠹  Injecting Stand power .......... 100%                        │
-  │  ⠸  MUDA MUDA MUDA MUDA MUDA MUDA!                               │
-  │  ⠼  Pushing to production .......... WRYYYYYYYY!                 │
-  │                                                                  │
-  │  ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━    │
-  │  ⏱️  Time resumes.                                               │
-  │                                                                  │
-  │  ✓  Build successful.                                            │
-  │  ✓  All bugs eliminated.                                         │
-  │  ✓  Code fixed.                                                  │
-  │  ✓  You will never reach the truth.                              │
-  │                                                                  │
-  │  「REQUIEM」 Deploy complete.                                     │
-  │                                                                  │
-  │  Enemy Stand User: ... NANI?!                                    │
-  │                                                                  │
-  └──────────────────────────────────────────────────────────────────┘
-```
-
+<div align="center">
+  <img src="./assets/za-warudo.svg" width="100%" alt="Za Warudo Deploy Animation" />
+</div>
 
 ---
 
