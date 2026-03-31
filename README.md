@@ -3,8 +3,7 @@
 <img src="https://capsule-render.vercel.app/api?type=venom&height=300&color=0:0d1117,50:1a0a2e,100:0d1117&text=「JR-45」&fontSize=80&fontColor=C678DD&animation=fadeIn&fontAlignY=45&desc=ゴゴゴ%20You%20will%20never%20reach%20the%20truth%20ゴゴゴ&descSize=16&descAlignY=65&descColor=E06C75" width="100%" />
 
 <br>
-
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=22&duration=2500&pause=800&color=C678DD&center=true&vCenter=true&width=600&lines=%E3%82%B4%E3%82%B4%E3%82%B4+You+thought+it+was+a+junior+dev...;But+it+was+me%2C+JR-45!+%E3%82%B4%E3%82%B4%E3%82%B4;MUDA+MUDA+MUDA+MUDA+MUDA!;Kono+JR-45+da!;This+is...+Requiem.;WRYYYYYYYY!" alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=22&duration=2500&pause=800&color=C678DD&center=true&vCenter=true&width=600&lines=%E3%82%B4%E3%82%B4%E3%82%B4+You+thought+it+was+a+junior+dev...;But+it+was+me%2C+JR-45!+%E3%82%B4%E3%82%B4%E3%82%B4;MUDA+MUDA+MUDA+MUDA+MUDA!;Kono+JR-45+da!;This+is...+Requiem.;WRYYYYYYYY!;Killer+Queen+has+already+touched+this+repo.;BITE+ZA+DUSTO!;The+flow+of+calamity+cannot+be+stopped.;Wonder+of+U...+pursuing+me+was+your+mistake." alt="Typing SVG" />
 
 </div>
 
