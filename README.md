@@ -1,44 +1,68 @@
 <div align="center">
 
 ```
-                          🤠
-    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-    ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
-    ░  🌵  I came. I debugged. I conquered.  🌵  ░
-    ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
-    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-              /    \
-             🔫    🔫
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀ ゴゴゴゴゴゴゴゴ
+⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀「  Z A   W A R U D O  」
+⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀ ⌜ Time has stopped. ⌝
+⠀⠀⠀ ⌞ Now deploying...  ⌟
+⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀ ゴゴゴゴゴゴゴゴ
 ```
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=24&pause=1000&color=E8A317&center=true&vCenter=true&width=500&lines=%F0%9F%A4%A0+The+Code+Cowboy;Fastest+Debugger+in+the+West;Wanted%3A+Dead+Bugs+%26+Live+Servers;Rides+Bun+%F0%9F%94%A5+Shoots+TypeScript+%F0%9F%8E%AF" alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=28&pause=1000&color=C678DD&center=true&vCenter=true&width=600&lines=%E3%82%B4%E3%82%B4%E3%82%B4+You+thought+it+was+a+junior+dev...;But+it+was+me%2C+JR-45!+%E3%82%B4%E3%82%B4%E3%82%B4;MUDA+MUDA+MUDA+MUDA+MUDA!;This+is...+Requiem." alt="Typing SVG" />
 
 </div>
 
 ---
 
-### 🌅 Wanted Poster
+### ゴゴゴ Stand User Profile
 
 ```
-  ╔═══════════════════════════════════════════╗
-  ║            ★  W A N T E D  ★             ║
-  ║          ━━━━━━━━━━━━━━━━━━━━             ║
-  ║                                           ║
-  ║   Name .......... Jeton                   ║
-  ║   Alias ......... JR-45                   ║
-  ║   Occupation .... Code Cowboy             ║
-  ║   Base .......... HKA, Karlsruhe          ║
-  ║   Crime ......... Shipping too fast       ║
-  ║   Reward ........ mass deployed code      ║
-  ║                                           ║
-  ║       ⚠️  APPROACH WITH CAUTION  ⚠️        ║
-  ║     Armed with Bun & extremely fast       ║
-  ╚═══════════════════════════════════════════╝
+  ╔═══════════════════════════════════════════════════════╗
+  ║                                                       ║
+  ║   Stand User ......... Jeton                          ║
+  ║   Stand Name ......... 「JR-45」                       ║
+  ║   Stand Ability ...... Mass Deployment at Light Speed ║
+  ║   Affiliation ........ HKA, Karlsruhe                 ║
+  ║   Alignment .......... Chaotic Coder                  ║
+  ║                                                       ║
+  ║   "You will never reach the production server."       ║
+  ║                                  — Diavolo, probably  ║
+  ║                                                       ║
+  ╚═══════════════════════════════════════════════════════╝
 ```
 
 ---
 
-### 🔫 Weapons of Choice
+### 🏹 Stand Stats
+
+```
+  「 TECH STAND 」
+
+  TypeScript  ████████████████████░░  A
+  Bun         ███████████████████░░░  A
+  Python      ████████████████████░░  A
+  FastAPI     ██████████████████░░░░  B+
+  PostgreSQL  ██████████████████░░░░  B+
+  Docker      █████████████████░░░░░  B
+  GraphQL     ████████████████░░░░░░  B
+  Git         ████████████████████░░  A
+
+  ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  Power       ██████████████████░░░░  A
+  Speed       ████████████████████░░  A
+  Range       ████████████████░░░░░░  B
+  Durability  ████████████████████░░  A
+  Precision   ██████████████████░░░░  A
+  Potential   █████████████████████░  A+
+  ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+```
+
+---
+
+### ⚔️ Abilities
 
 <div align="center">
 
@@ -56,45 +80,77 @@
 
 ---
 
-### 🏜️ Trail Map
+### 🩸 Stand Ability: 「Development Process」
 
 ```python
-class CodeCowboy:
-    def __init__(self):
-        self.saddle     = "VS Code"
-        self.horse      = "macOS + iTerm"
-        self.ammo       = ["TypeScript", "Bun", "Python", "FastAPI"]
-        self.hideout    = "Hochschule Karlsruhe (HKA)"
-        self.wanted_for = "Pushing to main at high noon"
+class TheWorld:
+    """You thought it was a normal dev? Kono JR-45 da!"""
 
-    def draw(self):
-        return "🔫 Bug eliminated before it even compiled."
+    def __init__(self):
+        self.user         = "Jeton"
+        self.stand        = "「JR-45」"
+        self.ability      = "Mass Deployment"
+        self.catchphrase  = "MUDA MUDA MUDA!"
+        self.kill_count   = "∞ bugs eliminated"
+
+    def time_stop(self):
+        print("「ZA WARUDO」")
+        print("⏱️ Time has stopped.")
+        self.deploy()
+        self.fix_all_bugs()
+        print("⏱️ Time resumes. Build successful.")
+
+    def deploy(self):
+        print("WRYYYYYYYY! 🚀")
+
+    def fix_all_bugs(self):
+        bugs = float('inf')
+        while bugs > 0:
+            print("MUDA! 👊")
+            bugs -= 1  # this is... requiem
 ```
 
 ---
 
-### 📊 Bounty Board
+### 📊 Kill Count
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=JR-45&show_icons=true&theme=gruvbox&hide_border=true&bg_color=1a1511&title_color=E8A317&icon_color=E8A317&text_color=d4be98" width="48%" />
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=JR-45&theme=gruvbox&hide_border=true&background=1a1511&ring=E8A317&fire=E8A317&currStreakLabel=E8A317&sideLabels=d4be98&dates=928374" width="48%" />
+<img src="https://github-readme-stats.vercel.app/api?username=JR-45&show_icons=true&hide_border=true&bg_color=0d0d0d&title_color=C678DD&icon_color=E06C75&text_color=ABB2BF&ring_color=C678DD" width="48%" />
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=JR-45&hide_border=true&background=0d0d0d&ring=C678DD&fire=E06C75&currStreakLabel=C678DD&sideLabels=ABB2BF&dates=636e72" width="48%" />
 
 </div>
 
 ---
 
+### 📖 Villain Monologue
+
+```
+  "I, JR-45, have a dream."
+                              — inspired by Giorno Giovanna
+
+  "Every bug I fix, every feature I ship,
+   brings me one step closer to Heaven."
+                              — inspired by Pucci
+
+  "Killer Queen has already touched
+   that deploy button."
+                              — inspired by Kira Yoshikage
+```
+
+---
+
 <div align="center">
 
 ```
-        🌵                          🌵
-    The sun sets on bugs,
-    but never on my commits.
-        🌅
+  ゴ                                           ゴ
+  ゴ     This is the power of Requiem.         ゴ
+  ゴ     You will never reach the truth.       ゴ
+  ゴ                                           ゴ
 ```
 
-*"This town ain't big enough for both of us... so I refactored it."*
+*Oh? You're approaching my profile? Instead of running away, you're coming right to me?*
 
-[![GitHub](https://img.shields.io/badge/🤠_Ride_Along-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/JR-45)
+[![GitHub](https://img.shields.io/badge/ゴゴゴ_Approach_Me-0d0d0d?style=for-the-badge&logo=github&logoColor=C678DD)](https://github.com/JR-45)
 
 </div>
