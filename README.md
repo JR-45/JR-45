@@ -45,10 +45,8 @@
 
 ---
 
-### 💣「KILLER QUEEN」— First Bomb: Code Review
-
 <div align="center">
-  <img src="./assets/killer-queen.svg" width="100%" alt="Killer Queen Test Animation" />
+  <img src="./assets/adventure-cherries.gif" width="400" alt="Killer Queen - Rerorerorerorero" />
 </div>
 
 ---
