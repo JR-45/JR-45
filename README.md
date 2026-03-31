@@ -29,28 +29,12 @@
 
 ---
 
-### 📊「STAND PARAMETERS」
-
-<div align="center">
-  <img src="./assets/stand-stats.svg" alt="Stand Parameters" />
-</div>
-
----
-
 *Rero rero rero rero rero rero rero rero* 🍒
 
 <br>
 
   <img src="./assets/adventure-cherries.gif" width="400" alt="Kakyoin - Rerorerorerorero" />
 
-</div>
-
----
-
-### 📈「STAND ACTIVITY」
-
-<div align="center">
-  <img src="./assets/stand-activity.svg" width="100%" alt="Stand Activity Wave" />
 </div>
 
 ---
